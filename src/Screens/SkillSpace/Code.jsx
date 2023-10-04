@@ -30,7 +30,7 @@ const Code = () => {
               </p>
               <a href={idx.url} target='_blank' >
 
-                <span class="flex items-center justify-center mt-4 w-full bg-yellow-400 hover:bg-yellow-500 py-1 rounded">
+                <span class="flex items-center justify-center mt-4 w-full bg-green-500 hover:bg-green-600 py-1 rounded">
                   <button class="font-semibold text-gray-800">Explore</button>
                 </span>
               </a>

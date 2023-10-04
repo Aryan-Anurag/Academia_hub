@@ -50,9 +50,12 @@ import git1 from '../../assets/git1.jpg'
 import git2 from '../../assets/git2.jpg'
 import git3 from '../../assets/git3.jpg'
 import git4 from '../../assets/git4.jpg'
-
-
-
+import rmap from '../../assets/webroadmap.jpg'
+import androidrmap from '../../assets/android-roadmap.jpg'
+import dsarmap from '../../assets/dsaroadmap.jpg'
+import git5 from '../../assets/gitmap.webp'
+import cybermap from '../../assets/cyberrmap.jpg'
+import uiuxrmap from '../../assets/uiroadmap.png'
 
 export const learn = [
     {
@@ -60,12 +63,12 @@ export const learn = [
         url: "/skills/Learn/DS",
         title: "Data Structures & Algorithms",
         imgsrc: DataStructures,
-        desc: "Deep dive into the journey of Web Development "
+        desc: "Deep dive into the journey of Data Structures & Algorithms "
     },
     {
         id: 2,
         url: "/skills/Learn/App",
-        title: "Android",
+        title: "Android Development",
         imgsrc: Android,
         desc: " Deep dive into the journey of Android Development"
     },
@@ -247,6 +250,13 @@ export const webdev =[
         url:"https://www.udemy.com/course/ultimate-web/?gclid=Cj0KCQjwusunBhCYARIsAFBsUP8e3JPhA3kPKr_ugaiePZqLGr2hgvaNZjME23YY67SqbTcXQDmTnncaAmhOEALw_wcB&matchtype=b&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.INDIA_ti.8322_Exp&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_82381205698_._ad_670210021613_._kw_angela+yu+web+development_._de_c_._dm__._pl__._ti_kwd-711965347109_._li_9181372_._pd__._",
         desc: "Learn the fundamentals of Web development from 0 to hero, One of the best courses for beginners ",
         title: "Web Development Bootcamp   -By Angela Yu [PAID]"
+    },
+    {
+        id: 7,
+        imgsrc: rmap,
+        url: "https://youtu.be/MkcfB7S4fq0?si=-8qu4RSaAbS1bnrz",
+        desc: "Don't know where to begin? Here is the full roadmap for web development",
+        title: "How to start web development    -By Apna College"
     }
 
 
@@ -295,6 +305,13 @@ export const appdev =[
         url:"https://www.udemy.com/course/flutter-bootcamp-with-dart/?amp=&utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.INDIA&utm_content=deal4584&utm_term=_._ag_82569850245_._ad_533220805577_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_9185433_._pd__._&matchtype=&gclid=EAIaIQobChMI092f7IiMgQMVWNUWBR1srQlcEAAYASAAEgIPHvD_BwE",
         desc: "One of the best courses for flutter development online. DO check out this course for learning and understaning the fundamentals along with clearing fundamentals",
         title: "Flutter By Angela Yu [Paid]"
+    },
+    {
+        id: 7,
+        imgsrc: androidrmap,
+        url: "https://youtu.be/VaMWsm6CFss?si=uey0npMQ0g4o8JP-",
+        desc: "Don't know where to begin? Here's the roadmap for Android Development",
+        title: "Complete roadmap for Android Development    -By LoveBabbar"
     }
 
 
@@ -342,6 +359,13 @@ export const DSAlgom =[
         url:"https://www.youtube.com/watch?v=8hly31xKli0",
         desc: "This course is provided by Freecodecamp and is one of the best resources online absolutely free.",
         title: "DSA by FreecodeCamp"
+    },
+    {
+        id: 7,
+        imgsrc: dsarmap,
+        url: "https://youtu.be/0NUKHCrk4oA?si=C9EQH2-XwQIX2y9l",
+        desc: "Don't know where to begin? Here's the complete roadmap for Data Structures & Algorithms",
+        title: "Roadmap for Data Structures & Algorithms    -by Hitesh Choudhary"
     }
 
 
@@ -377,6 +401,13 @@ export const Versioncntrl =[
         desc: "GIT and GITHUB explained in just one video,not recommended for complete beginners",
         title: "GIT and GITHUB for beginners by Freecodecamp.org"
     },
+    {
+        id: 5,
+        imgsrc: git5,
+        url: "https://youtu.be/Ez8F0nW6S-w?si=IyKlPa7YCawEmxHv",
+        desc: "Git and Github explained in just one video completely for beginners",
+        title: "Complete Git & Github tutorial for beginners    -By Apna College"
+    }
     
 
 
@@ -424,6 +455,13 @@ export const CyberSec =[
         url:"https://www.hackthebox.com/",
         desc: "HackBox is a platform for practising your cybersecurity skills, Recommmended for those who have a sound knowldege in cybersecurirty",
         title: "HackBox"
+    },
+    {
+        id: 7,
+        imgsrc: cybermap,
+        url: "https://youtu.be/D4fYyu305jg?si=hIVIs-dbX0otE2hn",
+        desc: "Don't know where to begin? Here's the complete roadmap for Cybersecurity",
+        title: "Cybersecurity roadmap for beginners     -By Simplilearn",
     }
 
 
@@ -471,6 +509,13 @@ export const UIndUX =[
         url:"https://www.youtube.com/@KingSidharthofficial",
         desc: "You can explore UI and UX on this channel, One of the best resource for designing Enthusiasts",
         title: "UI/UX King Sidharth"
+    },
+    {
+        id: 7,
+        imgsrc: uiuxrmap,
+        url: "https://youtu.be/cwPU547bCDs?si=h4Be3nQ1CJ5Xzcsp",
+        desc: "Don't know where to begin? Here's the complete roadmap for UI & UX",
+        title: "Step by step roadmap for how to become a UX designer    -By Ansh Mehra"
     }
 
 

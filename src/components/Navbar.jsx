@@ -62,11 +62,11 @@ const Navbar = ({ user }) => {
       {userInfo ? (
         <div className="  flex flex-row justify-end align-middle w-full  md:gap-20 p-2">
           {navItems2.map((item, idx) => (
-            <p className="text-white hidden md:block text-normal md:text-2xl font-semibold  " key={idx}>
+            <p className="text-white hidden md:block text-normal md:text-2xl font-semibold ease-in-out transform transition duration-500 hover:scale-110 hover:underline hover:underline-offset-8 " key={idx}>
               <Link to={item.link}>{item.label}</Link>
             </p>
           ))}
-          <div className="-mt-2 cursor-pointer rounded-full h-10 w-10 text-white">
+          <div className="-mt-2 cursor-pointer rounded-full h-10 w-10 text-white transform transition duration-500 hover:scale-110">
             <Button
               id="basic-button"
               aria-controls={open ? 'basic-menu' : undefined}

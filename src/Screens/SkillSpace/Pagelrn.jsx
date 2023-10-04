@@ -8,7 +8,7 @@ const Pagelrn = () => {
   return (
     <div className=" p-10 flex flex-wrap justify-center align-middle gap-20">
       {learn.map((idx) => (
-        <div class="max-w-xs rounded-md overflow-hidden shadow-lg hover:scale-105 transition duration-500 cursor-pointer">
+        <div class="max-w-xs rounded-md overflow-hidden shadow-lg hover:scale-105 transition duration-500 cursor-pointer shadow-lg shadow-cyan-500/50">
           <div>
             <img
               src={idx.imgsrc}
@@ -23,7 +23,7 @@ const Pagelrn = () => {
             <p class="mt-4 text-lg font-thin">
               {idx.desc}
             </p>
-            <span onClick={() => navigate(`${idx.url}`)} class="flex items-center justify-center mt-4 w-full bg-yellow-400 hover:bg-yellow-500 py-1 rounded">
+            <span onClick={() => navigate(`${idx.url}`)} class="flex items-center justify-center mt-4 w-full bg-green-500 hover:bg-green-600 py-1 rounded">
               <button class="font-semibold text-gray-800">Explore</button>
             </span>
           </div>
